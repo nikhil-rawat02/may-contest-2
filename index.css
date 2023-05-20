@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.user-time-zone{
+    margin: 10px;
+}
+.heading h1{
+ margin: 5px 0;
+}
+.current-zone-container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+.lat-long{
+    display: flex;
+    gap: 50%;
+    flex-wrap: wrap;
+}
+.find-address{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#find-address-input{
+    height: 1.5rem;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding-left: 10px;
+    font-weight: 100;
+}
+#find-address-input:focus{
+    outline: none;
+}
+#find-address-btn{
+    width: 10rem;
+    height: 2.2rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#find-address-btn:hover{
+    cursor: pointer;
+}

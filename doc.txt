@@ -1,0 +1,7 @@
+GeoCoding API is to search and get location using address
+URL:https://api.geoapify.com/v1/geocode/search?text=${address}&apiKey=a6738ee95662410d99bb512257b90d03
+
+Reverse GeoCoding API is to search and get location using long and lat
+URL: https://api.geoapify.com/v1/geocode/reverse?lat=51.21709661403662&lon=6.7782883744862374&apiKey=a6738ee95662410d99bb512257b90d03
+
+api key: a6738ee95662410d99bb512257b90d03

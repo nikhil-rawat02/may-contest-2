@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Location Tracker</title>
+</head>
+<body>
+    <div class="user-time-zone">
+        <div class="heading">
+            <h1>TimeZone API</h1>
+            <h1>Your Current Time Zone</h1>
+        </div>
+        <div class="current-zone-container">
+            <p id="zone-name"> Name of Time Zone : </p>
+            <div class="lat-long">
+                <span id="lat">Lat: </span>
+                <span id="long">Long: </span>
+            </div>
+            <p id="zone-std">Offset STD : </p>
+            <p id="zone-std-sec">Offset STD Seconds : </p>
+            <p id="zone-dst">Offset DST : </p>
+            <p id="zone-dst-sec">Offset DST Seconds : </p>
+            <p id="zone-country">Country : </p>
+            <p id="zone-postcode">Postcode : </p>
+            <p id="zone-city">City : </p>
+        </div>
+    </div>
+    <div class="find-address">
+        <h1>Enter Address</h1>
+        <input type="text" id="find-address-input" placeholder="Address">
+        <button id="find-address-btn">Submit</button>
+        <div class="current-zone-container" id="response-container">
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
